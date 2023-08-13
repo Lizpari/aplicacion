@@ -1,0 +1,58 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-image: url(../dos/empiezo.JPG);
+}
+.main-cont{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-cont img{
+    width: 100%;
+    height: 100vh;
+}
+.main-text{
+    width: 41%;
+    display: flex;
+    position: absolute;
+    height: 22%;
+    background: rgb(52, 102, 83);
+    top: 20%;
+    align-items: center;
+    justify-content: space-around;
+}
+.text{
+    position: relative;
+    font-size: 25px;
+    color: #abffea;
+    text-align: center;
+}
+.main-test{
+    width: 22%;
+    display: flex;
+    position: absolute;
+    height: 15%;
+    background: rgb(202, 255, 186);
+    bottom: 38%;
+    align-items: center;
+    justify-content: space-around;
+}
+.main-test a{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.test{
+    position: static;
+    font-size: 25px;
+    color: #092c14;
+    text-align: center;
+}
